@@ -6,7 +6,11 @@ using UnityEngine;
 
 public class IF_First : MonoBehaviour
 {
-
+    // for(int 반복에 사용하는 변수 (예시 i) = 0(변수 값 초기화); 반복에 사용하는 변수 < 100(반복 하는 조건 / 현재는 100미만 번 반복 즉, 0~99번 반복); 반복에 사용하는 변수 ++(증가값 / 현재는  1씩 증가))
+    // 우리는 for문을 보편적으로 특정 횟수만큼 반복하는 것에 사용하기 때문에
+    // for(int i = 0; i < 10; i++) // 0부터 9까지 반복하는 for문
+    // for(int i = 0; i <=9; i++) // 0부터 9까지 반복하는 for문
+    // for int i = 10; i > 0; i--) // 10부터 1까지 반복하는 for문
     private void Awake()
     {
         count = 0; // 초기화
